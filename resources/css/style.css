@@ -1,0 +1,153 @@
+/* Universal Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+h1 {
+	font-size: 7.1rem;
+	font-family: monoton;
+	padding-bottom: 1rem;
+}
+
+h2 {
+	color: #399bd1;
+	font-weight: bold;
+	padding-bottom: 1rem;
+}
+
+h3 {
+	color: #399bd1;
+	font-size: 1.3rem;
+}
+
+/* Bootstrap Overrides */
+.navbar-default .navbar-nav > .active > a {
+  color: #399bd1;
+}
+/* slid gallery section style rules*/
+.carousel {
+	color: white;
+	text-align: center;	
+	text-shadow: 1px 1px 2px black;
+}
+
+.caroursel p {
+	font-weight: bold;
+}
+
+.jumbotron {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 45rem;
+}
+	/*get going*/
+.bike {
+	padding-top: 10rem;
+	background-image: url("../images/jumbotron-bike - Copy.jpg");
+}
+	/*get thinking*/
+.beer {
+	padding-top: 10rem;
+	background-image: url("../images/jumbotron-beer.jpg");
+}
+	/*get creating*/
+.flowers {
+	padding-top: 10rem;
+	background-image: url("../images/jumbotron-flowers.jpg");
+}
+	/*get started*/
+.duffel {
+	padding-top: 10rem;
+	background-image: url("../images/jumbotron-duffel.jpg"); 
+}
+
+/*featured projects section style rules*/
+.image-container {
+	overflow: hidden;
+}
+
+.image-container img {
+	width: 100%;
+	opacity: 0.6;
+	transition: transform 500ms, opacity 500ms;
+}
+
+.image-container img:hover {
+	opacity: 1;
+	transition-property: transform, opacity;
+	transition-duration: 500ms, 500ms;
+	transform: transition(10);
+	transform: scale(1.3);
+}
+
+.product ul {
+	text-decoration: none;
+}
+
+.product li {
+	line-height: 1.8rem;
+}
+
+.defrost {
+	color: black;
+}
+
+/*projects below featured section*/
+.projects h3, .projects p {
+	color: black;
+	font-weight: bold;
+}
+
+.project {
+	margin-bottom: 1.7rem;
+}
+
+/*footer section style rules*/
+footer {
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	font-weight: bold;
+	background-color: lightgray;
+	padding-bottom: 4rem;
+	padding-top: 3rem;
+}
+
+footer h1 {
+	font-family: open sans;
+	font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
